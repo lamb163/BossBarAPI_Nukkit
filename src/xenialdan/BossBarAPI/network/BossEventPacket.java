@@ -4,7 +4,7 @@ import cn.nukkit.network.protocol.DataPacket;
 
 public class BossEventPacket extends DataPacket{
 
-	public static final byte NETWORK_ID = 0x4a;
+	public static final byte NETWORK_ID = 0x4b;
 
 	public long eid;
 	public int state;
